@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALURA-GREEK</title>
+  <link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+  <link rel="stylesheet" href="/styles.css">
+  <header>
+    <img src="/imagenAluraGeek.svg" alt="Imagen corazones">
+    <h1>Alura-Geek</h1>
+  </header>
+  <div class="contenedor-principal">
+    <section class="lista-productos">
+      <h2 class="h2">Mis Productos:</h2>
+      <div class="lista-productos-scroll">
+        <img src="/Products section.png" alt="productos"> 
+      </div>
+    </section>
+    <section class="formulario-producto">
+      <h2 class="h2">Agregar Carrito:</h2>
+      <form  data-formulario>
+        <input
+          class="input-element"
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Nombre..."
+          data-titulo
+          required
+        />
+        <input
+          class="input-element"
+          type="number"
+          id="precio"
+          name="precio"
+          placeholder="Precio..."
+          data-precio
+          required
+        />
+        <input
+          class="input-element"
+          type="text"
+          id="imagen"
+          name="imagen"
+          placeholder="Imagen..."
+          data-imagen
+          required
+        />
+        <div class="botones-formulario">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </div>
+      </form>
+    </section>
+  </div>
+  <footer>
+    <div class="footer-contenedor">
+      <h1>Alura-Geek</h1>
+    </div>
+    <p>MARITZA-REYES</p>
+    <p>ALURA LATAM 2024</p>
+  </footer>
+</body>
+</html>
